@@ -1,0 +1,31 @@
+import React , { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
+import { styles } from '../styles'
+import { logo, menu, close } from '../assets'
+
+const Navbar = () => {
+
+  const [active, setActive] = useState("");
+
+  return (
+    <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`} >
+
+      <div className="flex items-center justify-between w-full max-w-7xl mx-auto">
+
+        <Link to="/" className="flex items-center" onClick={ () => 
+        { setActive("");
+          window.scrollTo(0,0);
+        }}>
+
+          <img src={logo} alt="logo" className="w-10 h-10 object-contain filter invert  mr-2" />
+          <p className='text-white text-[18px] font-bold cursor-pointer'> Geoffrey <span className='sm:block hidden'> | Portfolio </span> </p> <p/>
+        </Link>
+
+      </div>
+
+
+    </nav>
+  )
+}
+
+export default Navbar
