@@ -1,7 +1,7 @@
 import {
-    mobile,
-    backend,
-    creator,
+    data,
+    devops,
+    architecture,
     web,
     javascript,
     typescript,
@@ -43,20 +43,20 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "FullStack Web Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "Data Scientist",
+      icon: data,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
+      title: "Devops",
+      icon: devops,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "Software Engineer",
+      icon: architecture,
     },
   ];
   
