@@ -22,7 +22,7 @@ const Computers = ( {isMobile} ) => {
       <primitive 
         object={computer.scene}
         scale={isMobile ? 1.1 : 1.9}
-        position={isMobile ? [0, -1.5, -0.4] : [0, -2.4, -1.0]} 
+        position={isMobile ? [0, -1.5, -0.4] : [0, -2.8, -1.0]} 
         rotation={[-0.01, 0.9, 0.01]}
       />
     </mesh>
@@ -61,6 +61,7 @@ const ComputersCanvas = () => {
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls enableZoom={false} 
+        enablePan={false}
         maxPolarAngle={Math.PI / 2} 
         minPolarAngle={Math.PI / 2} />
 

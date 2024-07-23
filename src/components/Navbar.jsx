@@ -23,7 +23,7 @@ const Navbar = () => {
           <img src={logo} alt="logo" className="w-10 h-10 object-contain invert  mr-2" />
           <p className='text-white text-[18px] font-bold cursor-pointer flex'> 
 
-            Geoffrey &nbsp; 
+            Geoffrey0pv &nbsp; 
             <span className='sm:block hidden'> | &nbsp; Portfolio </span>
 
           </p>
