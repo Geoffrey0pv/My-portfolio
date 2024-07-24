@@ -34,6 +34,9 @@ import jupyter from "./tech/jupyter.png";
 // Companies
 import icesi from "./company/icesi.png";
 
+// me
+import me from "./me.png";
+
 // Projects
 import icfesmodel from "./icfesmodel.png"
 import taskproject from "./taskproject.png"
@@ -76,4 +79,5 @@ export {
   postman,
   azuredevops,
   jupyter,
+  me,
 };
