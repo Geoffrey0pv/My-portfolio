@@ -16,14 +16,20 @@ import {
     git,
     figma,
     docker,
-    carrent,
-    jobit,
-    tripguide,
+    icfesmodel,
+    taskproject,
+    ecommercefutbol,
     threejs,
     python,
     scala,
     java,
     cplus,
+    postgresql,
+    django,
+    mysql,
+    postman,
+    azuredevops,
+    jupyter,
   } from "../assets";
 
   
@@ -68,19 +74,19 @@ import {
       category: "programming language",
     },
     {
-      name: "JavaScript",
-      icon: javascript,
+      name: "Python",
+      icon: python,
       category: "programming language",
     },
     {
-      name: "HTML 5",
-      icon: html,
-      category: "frontend",
+      name: "Scala",
+      icon: scala,
+      category: "programming language",
     },
     {
-      name: "CSS 3",
-      icon: css,
-      category: "frontend",
+      name: "JavaScript",
+      icon: javascript,
+      category: "programming language",
     },
     {
       name: "TypeScript",
@@ -108,14 +114,14 @@ import {
       category: "backend",
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "PostgreSQL",
+      icon: postgresql,
       category: "backend",
     },
     {
-      name: "Three JS",
-      icon: threejs,
-      category: "frontend",
+      name: "Django",
+      icon: django,
+      category: "backend",
     },
     {
       name: "Git",
@@ -123,13 +129,18 @@ import {
       category: "tools",
     },
     {
-      name: "Figma",
-      icon: figma,
+      name: "Postman",
+      icon: postman,
       category: "tools",
     },
     {
-      name: "Docker",
-      icon: docker,
+      name: "Azure DevOps",
+      icon: azuredevops,
+      category: "tools",
+    },
+    {
+      name: "Jupyter",
+      icon: jupyter,
       category: "tools",
     },
   ];
@@ -182,67 +193,81 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
-      description:
-        "",
+      name: "E-commerce",
+      description: "In this project, together with team of 4 people, we developed an e-commerce platform where users can browse, filter products, make reviews, login and logout using google API and e-mail confirmation, add them to their cart, and checkout using Paypal payment gateway. ",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "postgresql",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "nodejs",
+          color: "text-purple-500",
+        },
+        {
+          name: "django",
           color: "pink-text-gradient",
         },
+        {
+          name: "postman",
+          color: "gray-text-gradient",
+        },
       ],
-      image: carrent,
+      image: ecommercefutbol,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Machine Learning Project",
       description:
-        "",
+        "This research project processes large volumes of data obtained from the Colombian Institute for the Evaluation of Education (ICFES) to create" + 
+        "a training model that predicts the global score and analyzes whether various socio-economic factors influence the score.",
       tags: [
         {
-          name: "react",
+          name: "jupyter notebook",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "sklearn",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "matplotlib",
+          color: "text-teal-500",
+        },
+        {
+          name: "pandas",
           color: "pink-text-gradient",
         },
+        {
+          name: "seaborn",
+          color: "text-purple-500",
+        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: icfesmodel,
+      source_code_link: "https://github.com/Geoffrey0pv/Research-project-with-multiple-and-logistic-regression",
     },
     {
-      name: "Trip Guide",
+      name: "Data Structures and Algorithms project",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "In a team of 4 people, we developed a Task and Reminder Management System Design a task and reminder management system that allows users to ad" +
+        "organize, and manage their pending tasks and reminders. The management system should contain the following components and functionalities: Storing Tasks and Reminders, " +
+        "user Interface, priority Management, high-Priority Tasks, etc.  ",
       tags: [
         {
-          name: "nextjs",
+          name: "java",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "java-swing",
           color: "green-text-gradient",
         },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: taskproject,
+      source_code_link: "https://github.com/RamonaFlores/discrete-data-structures-TI1-HelloKittyInc",
     },
   ];
   

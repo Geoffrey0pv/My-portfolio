@@ -22,8 +22,6 @@ function App() {
 
       <Works />
 
-      <Feedbacks />
-
 
       <div className="relative z-0"> 
         <Contact />
@@ -32,7 +30,6 @@ function App() {
 
     </div>
     </BrowserRouter>
-
     )
 }
 

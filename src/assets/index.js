@@ -24,13 +24,21 @@ import java from "./tech/java.png";
 import cplus from "./tech/cplus.png";
 import python from "./tech/python.png";
 import scala from "./tech/scala.png";
+import django from "./tech/django.png";
+import postgresql from "./tech/postgresql.png";
+import mysql from "./tech/mysql.png";
+import postman from "./tech/postman.png";
+import azuredevops from "./tech/azuredevops.png";
+import jupyter from "./tech/jupyter.png";
 
 // Companies
 import icesi from "./company/icesi.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+// Projects
+import icfesmodel from "./icfesmodel.png"
+import taskproject from "./taskproject.png"
+import ecommercefutbol from "./ecommercefutbol.png"
+
 
 export {
   logo,
@@ -55,11 +63,17 @@ export {
   typescript,
   icesi,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
+  icfesmodel,
+  taskproject,
+  ecommercefutbol,
   cplus,
   java,
   python,
   scala,
+  django,
+  postgresql,
+  mysql,
+  postman,
+  azuredevops,
+  jupyter,
 };
