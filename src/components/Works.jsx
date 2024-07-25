@@ -53,7 +53,7 @@ const Works = () => {
         <p className={`${styles.sectionSubText} text-center`}>
           working...
         </p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>
+        <h2 className={`${styles.sectionHeadText} text-center`} id="projects">
           My projects.
         </h2>
       </motion.div>
@@ -79,4 +79,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "projects");

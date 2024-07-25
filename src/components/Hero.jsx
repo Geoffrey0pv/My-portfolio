@@ -1,10 +1,26 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { styles } from '../styles'; // Asegúrate de que esta ruta es correcta
 import { me } from "../assets";
 import { ComputersCanvas } from './canvas';
 
 const Hero = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    // Detectar el tamaño inicial de la ventana
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    handleResize(); // Ejecutar una vez al montar el componente
+    window.addEventListener('resize', handleResize); // Escuchar cambios en el tamaño de la ventana
+
+    return () => {
+      window.removeEventListener('resize', handleResize); // Limpiar el event listener al desmontar
+    };
+  }, []);
+
   useEffect(() => {
     const script = document.createElement('script');
     script.src = 'https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js';
@@ -116,7 +132,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas />
+      {!isMobile && <ComputersCanvas />}
 
       <div className='absolute xs:bottom-4 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>

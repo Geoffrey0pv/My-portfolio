@@ -3,7 +3,11 @@ import architecture from "./architecture.png";
 import data from "./data.png";
 import devops from "./devops.png";
 import web from "./web.png";
+
+// Tech
 import github from "./github.png";
+import linkedin from "./linkedin.png";
+
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -43,6 +47,8 @@ import taskproject from "./taskproject.png"
 import ecommercefutbol from "./ecommercefutbol.png"
 
 
+
+
 export {
   logo,
   devops,
@@ -80,4 +86,5 @@ export {
   azuredevops,
   jupyter,
   me,
+  linkedin,
 };

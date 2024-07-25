@@ -89,11 +89,6 @@ import {
       category: "programming language",
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-      category: "programming language",
-    },
-    {
       name: "React JS",
       icon: reactjs,
       category: "frontend",
@@ -218,7 +213,7 @@ import {
         },
       ],
       image: ecommercefutbol,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/HelloKittyDevelopers/Ecommerce_Back.git",
     },
     {
       name: "Machine Learning Project",
