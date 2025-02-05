@@ -43,7 +43,7 @@ import me from "./me.png";
 
 // Projects
 import icfesmodel from "./icfesmodel.png"
-import taskproject from "./taskproject.png"
+import taskproject from "./chess.png"
 import ecommercefutbol from "./ecommercefutbol.png"
 
 

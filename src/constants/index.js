@@ -216,6 +216,35 @@ import {
       source_code_link: "https://github.com/HelloKittyDevelopers/Ecommerce_Back.git",
     },
     {
+      name: "Freelance Plataform",
+      description: "In this project, together with team of 4 people, we developed an freelance platform where users can browse, filter projects, make reviews, login and logout using google API and e-mail confirmation, add them to their cart, and checkout using Paypal payment gateway. Technologies used: React, NodeJS, PostgreSQL, Django, Postman",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "postgresql",
+          color: "green-text-gradient",
+        },
+        {
+          name: "nodejs",
+          color: "text-purple-500",
+        },
+        {
+          name: "django",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "postman",
+          color: "gray-text-gradient",
+        },
+      ],
+      image: ecommercefutbol,
+      source_code_link: "https://freelancefantasy.netlify.app",
+    },
+    
+    {
       name: "Machine Learning Project",
       description:
         "This research project processes large volumes of data obtained from the Colombian Institute for the Evaluation of Education (ICFES) to create" + 
@@ -246,23 +275,31 @@ import {
       source_code_link: "https://github.com/Geoffrey0pv/Research-project-with-multiple-and-logistic-regression",
     },
     {
-      name: "Data Structures and Algorithms project",
+      name: "Chessmaster360",
       description:
-        "In a team of 4 people, we developed a Task and Reminder Management System Design a task and reminder management system that allows users to ad" +
-        "organize, and manage their pending tasks and reminders. The management system should contain the following components and functionalities: Storing Tasks and Reminders, " +
-        "user Interface, priority Management, high-Priority Tasks, etc.  ",
+        "A chess platform designed for chess.com users who " +
+        "want to analyze their games played in a day for" +
+        "free and also face bots of historical chess players for free."+
+        "Technologies used: NestJS, React, MongoDB, Docker and deployment in Azure",
       tags: [
         {
-          name: "java",
+          name: "NestJS",
           color: "blue-text-gradient",
         },
         {
-          name: "java-swing",
+          name: "React",
           color: "green-text-gradient",
+        },{
+          name: "MongoDB",
+          color: "text-purple-500",
+        },
+        ,{
+          name: "Docker",
+          color: "text-yellow-500",
         },
       ],
       image: taskproject,
-      source_code_link: "https://github.com/RamonaFlores/discrete-data-structures-TI1-HelloKittyInc",
+      source_code_link: "https://chessmaster360.netlify.app",
     },
   ];
   
