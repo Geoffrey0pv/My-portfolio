@@ -45,6 +45,8 @@ import me from "./me.png";
 import icfesmodel from "./icfesmodel.png"
 import taskproject from "./chess.png"
 import ecommercefutbol from "./ecommercefutbol.png"
+import freelance from "./FreelanceFantasy.png"
+
 
 
 
@@ -87,4 +89,5 @@ export {
   jupyter,
   me,
   linkedin,
+  freelance,
 };

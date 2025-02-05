@@ -30,6 +30,7 @@ import {
     postman,
     azuredevops,
     jupyter,
+    freelance,
   } from "../assets";
 
   
@@ -240,7 +241,7 @@ import {
           color: "gray-text-gradient",
         },
       ],
-      image: ecommercefutbol,
+      image: freelance,
       source_code_link: "https://freelancefantasy.netlify.app",
     },
     
